@@ -14,11 +14,26 @@ body {
     background-image: url(images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-y: 100px;
 }
+/*header part design*/
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content button a {
+    text-decoration: none;
+}
+
 /*first part design*/
+
 .banner {
     max-height: 652px;
     max-width: auto;
+    padding-top: 50px;
 }
 
 .banner-content {
