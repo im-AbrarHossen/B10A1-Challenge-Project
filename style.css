@@ -26,6 +26,22 @@ body {
 
 .header-content button a {
     text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-content button {
+    width: 228px;
+    height: 58px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.header-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
 }
 
 /*first part design*/
@@ -33,11 +49,15 @@ body {
 .banner {
     max-height: 652px;
     max-width: auto;
-    padding-top: 50px;
 }
 
 .banner-content {
     text-align: center;
+    max-width: 998px;
+    max-height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
 }
 
 .banner-content h1 {
@@ -66,7 +86,11 @@ body {
 
 /*second part design*/
 .banner2 {
-    margin: 148px;
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 424px;
+    margin-bottom: 148px;
+
     padding: 97px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -77,8 +101,7 @@ body {
     border-style: none;
     max-width: 1140px;
     max-height: 1395px;
-    padding-top: 20px;
-    padding-bottom: 48px;
+    padding-bottom: 28px;
     padding-left: 48px;
     padding-right: 48px;
     margin-left: auto;
@@ -243,4 +266,78 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/*fifth part*/
+
+.banner5-content {
+    text-align: center;
+    padding: 64px 0;
+}
+
+.banner5-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.banner5-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+
+#texts {
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 0.4);
+    border-radius: 8px;
+    border-style: none;
+}
+
+#texts2 {
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+    font-size: 600;
+    color: rgb(13, 19, 33);
+    border-radius: 8px;
+    border-style: none;
+}
+
+.banner6-main {
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 8px;
+    height: auto;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 79px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.banner6-main h1 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner6-main .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 24px;
+    align-items: center;
 }
