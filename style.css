@@ -36,12 +36,14 @@ body {
     height: 58px;
     background-color: transparent;
     border-radius: 8px;
+    margin-right: 166px;
 }
 
 .header-content h1 {
     color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800;
+    margin-left: 150px;
 }
 
 /*first part design*/
@@ -152,6 +154,14 @@ body {
     height: 48px;
     border: 1px solid rgb(13, 19, 33);
     color: rgb(13, 19, 33);
+    background-color: transparent;
+}
+
+.banner2-content-details button a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 #apple .banner2-content-details{
